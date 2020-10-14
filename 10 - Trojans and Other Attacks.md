@@ -140,7 +140,7 @@
   - **Fragmentation attacks** - attacks take advantage of the system's ability to reconstruct fragmented packets
   - **Volumetric attacks** - bandwidth attacks; consume all bandwidth for the system or service
   - **Application attacks** - consume the resources necessary for the application to run
-    - Note - application level attakcs are against weak code; application attacks are just the general term
+    - Note - application level attacks are against weak code; application attacks are just the general term
   - **TCP state-exhaustion attacks** - go after load balancers, firewalls and application servers
   - **SYN attack** - sends thousands of SYN packets to the machine with a false source address; eventually engages all resources and exhausts the machine
   - **SYN flood** - sends thousands of SYN packets; does not spoof IP but doesn't respond to the SYN/ACK packets; eventually bogs down the computer, runs out of resources
